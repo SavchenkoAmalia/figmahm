@@ -14,8 +14,76 @@ letter-spacing: 0.48px;
     padding: 0 15px;
 }
 
+.header {
+    margin-top: 32px;
+    margin-bottom: 232px;
+}
+
 .gallary-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-top: 232px;
+    margin-bottom: 330px;
+}
+
+.gallary-page-title {
+    margin-top: 232px;
+    margin-bottom: 30px;
+}
+
+
+.details-page {
+    margin-top: 294px;
+    margin-bottom: 118px;
+}
+
+.work-page {
+    margin-top: 118px;
+    margin-bottom: 188px;
+}
+
+.work-page-title {
+    margin-top: 118px;
+    margin-bottom: 50px;
+}
+
+.team-page {
+    margin-top: 188px;
+    margin-bottom: 154px;
+}
+
+.team-page-name {
+    margin-top: 188px;
+    margin-bottom: 50px;
+}
+
+.team-page-people {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin-top: 154px;
+    margin-bottom: 60px;
+}
+
+.footer-title {
+    margin-top: 20px;
+}
+
+.header-portfolio {
+    margin-top: 32px;
+    margin-bottom:132px ;
+}
+
+.home-page-buttons {
+    margin-top: 132px;
+    math-depth: 56px;
+}
+
+.portfolio-page {
+    margin-top: 56px;
+    margin-bottom: 94px;
+}
+
+.portfolio-page-title {
+    margin-top: 20px;
 }
