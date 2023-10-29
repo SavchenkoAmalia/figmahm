@@ -8,4 +8,14 @@ line-height: 26px; /* 162.5% */
 letter-spacing: 0.48px;
 }
 
+.container {
+    width: 1170px;
+    margin: 0 auto;  
+    padding: 0 15px;
+}
 
+.gallary-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
