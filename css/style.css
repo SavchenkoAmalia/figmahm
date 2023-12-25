@@ -197,6 +197,24 @@ letter-spacing: 0.96px;
     
 }
 
+.details-page-background {
+    width: 270px;
+height: 120px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #F5F4FA;
+margin-bottom : 30px;
+display: flex;
+justify-content: center;
+padding: 25px;
+}
+
+.details-page-img {
+    width: 70px;
+height: 70px;
+flex-shrink: 0;
+}
+
 .details-page-title {
     width: 270px;
     color: var(--main-black);
@@ -205,6 +223,7 @@ font-size: 14px;
 font-weight: 700;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+margin-bottom: 10px;
 }
 
 .details-page-text {
@@ -270,6 +289,7 @@ flex-shrink: 0;
 height: 648px;
 flex-shrink: 0;
    background-color: #F5F4FA;
+  
 }
 
 .team-page-name {
@@ -300,10 +320,13 @@ flex-shrink: 0;
 
 .team-people {
     width: 270px;
-height: 368px;
-flex-shrink: 0;
+    height: 428px;
+    flex-shrink: 0;
     border-radius: 0px 0px 4px 4px;
-background: var(--main-weiht);
+    background: #FFF;
+    
+    /* material shadow v1 */
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .people {
@@ -332,7 +355,66 @@ font-weight: 400;
 letter-spacing: 0.48px;
 }
 
+.menu-page-customers {
+}
+
+.customers-page {
+}
+
+.customers-page-container {
+    margin-top: 95px;
+    margin-bottom: 95px;
+}
+
+.customers-page-title {
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+margin-bottom: 50px;
+}
+
+.customers-page-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.customers-page-item {
+    width: 170px;
+height: 92px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid #AFB1B8;
+display: flex;
+justify-content: center;
+padding: 16px;
+fill: #AFB1B8;
+transition: all 0.3s ease 0s;
+}
+
+.customers-page-item:hover{
+fill: #2196F3;
+}
+
+.customers-page-svg {
+    width: 106px;
+height: 60px;
+flex-shrink: 0;
+fill: #AFB1B8;
+transition: all 0.3s ease 0s;
+}
+
+.customers-page-img:hover {
+fill: #2196F3;
+}
+
 .footer {
+    
 }
 
 .footer-container {
