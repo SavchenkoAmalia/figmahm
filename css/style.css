@@ -133,7 +133,7 @@ background: #ECECEC; */
     width: 1600px;
 height: 600px;
 flex-shrink: 0;
-    background: var(--main-color);
+background: url(../img/Img.jpg), lightgray 0px -147.517px / 100% 170.667% no-repeat;
 }
 
 .gallary-page-title {
