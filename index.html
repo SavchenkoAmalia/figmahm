@@ -39,9 +39,15 @@
         </nav>
         <ul class="header-info-list" >
             <li class="header-info-item" >
+                <svg class="header-info-svg">
+                    <use class="header-info-use" href="./img/envelope.svg#envelope"></use>
+                </svg>
                 <a class="header-info-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li class="header-info-item" >
+                <svg class="header-info-svg">
+                    <use class="header-info-use" href="./img/smartphone.svg#smartphone"></use>
+                </svg>
                 <a class="header-info-link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
@@ -49,23 +55,23 @@
     </div>
     </div>
     </header>
+
+
     <main class="page menu-page">
     <section class="menu-page-gallary gallary-page" >
     <div class="gallary-page-container container">
         <h1 class="gallary-page-title" >
             ЕФЕКТИВНІ РІШЕННЯ 
             ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-    <button class="gallary-page-button" >
-        <a class="gallary-page-link">замовити послугу</a>
+        <button class="gallary-page-button">замовити послугу</button>
     </div>
-    </button>
     </section>
     <section class="menu-page-details details-page" >
         <div class="details-page-container container" >
             <ul class="details-page-list" >
                 <li class="details-page-item" >
                     <div class="details-page-background">
-                        <img class="details-page-img"  src="./img/antenna 1.svg" alt="">
+                        <img class="details-page-img"  src="./img/antenna-one.svg" alt="">
                     </div>
                     <h4 class="details-page-title" >
                      УВАГА ДО ДЕТАЛЕЙ
@@ -78,7 +84,7 @@
                 </li>
                 <li class="details-page-item" >
                     <div class="details-page-background">
-                        <img class="details-page-img" src="./img/clock 1.svg" alt="">
+                        <img class="details-page-img" src="./img/clock-one.svg" alt="">
                     </div>
                     <h4 class="details-page-title" >
                         ПУНКТУАЛЬНІСТЬ
@@ -90,7 +96,7 @@
                 </li>
                 <li class="details-page-item" >
                     <div class="details-page-background">
-                        <img class="details-page-img" src="./img/diagram 1.svg" alt="">
+                        <img class="details-page-img" src="./img/diagram-one.svg" alt="">
                     </div>
                     <h4 class="details-page-title" >
                         ПЛАНУВАННЯ
@@ -102,7 +108,7 @@
                 </li>
                 <li class="details-page-item" >
                     <div class="details-page-background">
-                        <img class="details-page-img" src="./img/astronaut 1.svg" alt="">
+                        <img class="details-page-img" src="./img/astronaut-one.svg" alt="">
                     </div>
                     <h4 class="details-page-title" >
                         СУЧАСНІ ТЕХНОЛОГІЇ
@@ -123,18 +129,33 @@
     <ul class="work-page-list" >
         <li class="work-page-item" >
     <img class="work-page-img" src="./img/1.jpg"  height="230" alt="">
+    <div class="work-page-submenu">
+        <p class="work-page-text">
+            Десктопні додатки
+        </p>
+    </div>
         </li>
         <li class="work-page-item" >
     <img class="work-page-img" src="./img/2.jpg" height="230"  alt="">
+    <div class="work-page-submenu">
+        <p class="work-page-text">
+            Мобільні додатки
+        </p>
+    </div>
         </li>
         <li class="work-page-item" >
     <img class="work-page-img" src="./img/3.jpg"  height="230" alt="">
+    <div class="work-page-submenu">
+        <p class="work-page-text">
+            Дизайнерські рішення 
+        </p>
+    </div>
         </li>
     </ul>
     </div>
     </section>
     <section class="menu-page-team team-page" >
-        <div class="team-page-container container" >
+        <div class="team-page-container container">
             <h2 class="team-page-name" >Наша команда</h2>
         <ul class="team-page-list" >
             <li class="team-page-item" >
@@ -145,7 +166,36 @@
                 <h6 class="team-page-mission" >
                     Product Designer
                 </h6>
-              
+            <ul class="team-page-lists">
+                <li class="team-page-items">
+                    <a target="_blank"  href="https://www.instagram.com/" class="team-page-link">
+                    <svg class="team-page-svg">
+                        <use class="team-page-use" href="./img/instagram 2.svg#instagram"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="team-page-items">
+                    <a target="_blank"  href="https://twitter.com/i/flow/login" class="team-page-link">
+                    <svg class="team-page-svg">
+                        <use class="team-page-use" href="./img/twitter 1.svg#twitter"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="team-page-items">
+                    <a target="_blank" href="https://uk-ua.facebook.com/" class="team-page-link">
+                    <svg class="team-page-svg">
+                        <use class="team-page-use" href="./img/facebook.svg#facebook"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="team-page-items">
+                    <a target="_blank" href="https://www.linkedin.com/" class="team-page-link">
+                    <svg class="team-page-svg">
+                        <use class="team-page-use" href="./img/linkedin.svg#linkedin"></use>
+                    </svg>
+                    </a>
+                </li>
+            </ul>
             </div>
         </div>
             </li>
@@ -157,7 +207,36 @@
                 <h6 class="team-page-mission" >
                     Frontend Developer
                 </h6>
-               
+                <ul class="team-page-lists">
+                    <li class="team-page-items">
+                        <a target="_blank" href="https://www.instagram.com/" class="team-page-link">
+                        <svg class="team-page-svg">
+                            <use class="team-page-use" href="./img/instagram 2.svg#instagram"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="team-page-items">
+                        <a target="_blank" href="https://twitter.com/i/flow/login" class="team-page-link">
+                        <svg class="team-page-svg">
+                            <use class="team-page-use" href="./img/twitter 1.svg#twitter"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="team-page-items">
+                        <a target="_blank" href="https://uk-ua.facebook.com/" class="team-page-link">
+                        <svg class="team-page-svg">
+                            <use class="team-page-use" href="./img/facebook.svg#facebook"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="team-page-items">
+                        <a target="_blank" href="https://www.linkedin.com/" class="team-page-link">
+                        <svg class="team-page-svg">
+                            <use class="team-page-use" href="./img/linkedin.svg#linkedin"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
             </div>
         </li>
@@ -169,7 +248,36 @@
                 <h6 class="team-page-mission" >
                     Marketing
                 </h6>
-             
+                <ul class="team-page-lists">
+                    <li class="team-page-items">
+                        <a target="_blank" href="https://www.instagram.com/" class="team-page-link">
+                        <svg class="team-page-svg">
+                            <use class="team-page-use" href="./img/instagram 2.svg#instagram"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="team-page-items">
+                        <a target="_blank" href="https://twitter.com/i/flow/login" class="team-page-link">
+                        <svg class="team-page-svg">
+                            <use class="team-page-use" href="./img/twitter 1.svg#twitter"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="team-page-items">
+                        <a target="_blank" href="https://uk-ua.facebook.com/" class="team-page-link">
+                        <svg class="team-page-svg">
+                            <use class="team-page-use" href="./img/facebook.svg#facebook"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="team-page-items">
+                        <a target="_blank" href="https://www.linkedin.com/" class="team-page-link">
+                        <svg class="team-page-svg">
+                            <use class="team-page-use" href="./img/linkedin.svg#linkedin"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
             </div>
         </li>
@@ -181,45 +289,87 @@
                 <h6 class="team-page-mission" >
                     UI Designer
                 </h6>
+                <ul class="team-page-lists">
+                    <li class="team-page-items">
+                        <a target="_blank" href="https://www.instagram.com/" class="team-page-link">
+                        <svg class="team-page-svg">
+                            <use class="team-page-use" href="./img/instagram 2.svg#instagram"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="team-page-items">
+                        <a target="_blank" href="https://twitter.com/i/flow/login" class="team-page-link">
+                        <svg class="team-page-svg">
+                            <use class="team-page-use" href="./img/twitter 1.svg#twitter"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="team-page-items">
+                        <a target="_blank" href="https://uk-ua.facebook.com/" class="team-page-link">
+                        <svg class="team-page-svg">
+                            <use class="team-page-use" href="./img/facebook.svg#facebook"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="team-page-items">
+                        <a target="_blank" href="https://www.linkedin.com/" class="team-page-link">
+                        <svg class="team-page-svg">
+                            <use class="team-page-use" href="./img/linkedin.svg#linkedin"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            </div>
-           </li>
-        </ul>
-    </div>
+        </div>
+                </li>
+            </ul>
+        </div>
     </section>
     <section class="menu-page-customers customers-page">
         <div class="customers-page-container container">
             <h6 class="customers-page-title" >Постійні клієнти</h6>
             <ul class="customers-page-list">
                 <li class="customers-page-item">
+                    <a class="customers-page-link" target="_blank" href="https://kahoot.it/">
                     <svg class="customers-page-svg">
                         <use class="customers-page-use" href="./img/logo.svg#logoOne"></use>
                     </svg>
+                    </a>
                 </li>
                 <li class="customers-page-item">
+                    <a class="customers-page-link" target="_blank" href="https://www.youtube.com/">
                     <svg class="customers-page-svg">
                         <use class="customers-page-use" href="./img/logo2 (1).svg#logoTwo"></use>
                     </svg>
+                    </a>
                 </li>
                 <li class="customers-page-item">
+                    <a class="customers-page-link" target="_blank" href="https://github.com/">
                     <svg class="customers-page-svg">
                         <use class="customers-page-use" href="./img/logo3.svg#logoThree"></use>
                     </svg>
+                    </a>
                 </li>
                 <li class="customers-page-item">
+                    <a class="customers-page-link" target="_blank" href="https://www.canva.com/">
                     <svg class="customers-page-svg">
                         <use class="customers-page-use" href="./img/logo4.svg#logoFour"></use>
                     </svg>
+                </a>
                 </li>
                 <li class="customers-page-item">
+                    <a class="customers-page-link" target="_blank" href="https://htmlreference.io/">
                     <svg class="customers-page-svg">
                         <use class="customers-page-use" href="./img/logo5.svg#logoFive"></use>
                     </svg>
+                </a>
                 </li>
                 <li class="customers-page-item">
+                    <a class="customers-page-link" target="_blank" href="https://www.tiktok.com/uk-UA/">
                     <svg class="customers-page-svg">
                         <use class="customers-page-use" href="./img/logo6.svg#logoSix"></use>
                     </svg>
+                </a>
                 </li>
             </ul>
         </div>
@@ -241,7 +391,7 @@
             </li>
             <li class="footer-item" >
                 <a class="footer-links" href="mailto:info@devstudio.com">
-                 info@devstudio.com
+                    info@devstudio.com
                 </a>
             </li>
             <li class="footer-item" >
@@ -250,6 +400,39 @@
                 </a>
             </li>
         </ul>
+        <div class="footer-right">
+            <h3 class="footer-titles" >приєднуйтесь</h3>
+            <ul class="footer-lists">
+                <li class="footer-items">
+                    <a target="_blank" href="https://www.instagram.com/" class="footer-linkss">
+                    <svg class="footer-svg">
+                        <use class="footer-use" href="./img/instagram 2.svg#instagram"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="footer-items">
+                    <a target="_blank" href="https://twitter.com/i/flow/login" class="footer-linkss">
+                    <svg class="footer-svg">
+                        <use class="footer-use" href="./img/twitter 1.svg#twitter"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="footer-items">
+                    <a target="_blank" href="https://uk-ua.facebook.com/" class="footer-linkss">
+                    <svg class="footer-svg">
+                        <use class="footer-use" href="./img/facebook.svg#facebook"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="footer-items">
+                    <a target="_blank" href="https://www.linkedin.com/" class="footer-linkss">
+                    <svg class="footer-svg">
+                        <use class="footer-use" href="./img/linkedin.svg#linkedin"></use>
+                    </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
             </div>
         </footer>
