@@ -607,6 +607,7 @@ letter-spacing: 0.42px;
 }
 
 .footer-right {
+    margin-left: 85px;
     display: flex;
     flex-direction: column;
     margin-top: 72px;
