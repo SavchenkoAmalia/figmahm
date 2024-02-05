@@ -42,21 +42,24 @@
                 <svg class="header-info-svg">
                     <use class="header-info-use" href="./img/envelope.svg#envelope"></use>
                 </svg>
-                <a class="header-info-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="header-info-link" href="#" data-modal-open >info@devstudio.com</a>
             </li>
             <li class="header-info-item" >
                 <svg class="header-info-svg">
-                    <use class="header-info-use" href="./img/smartphone.svg#smartphone"></use>
+                    <use class="header-info-use" href="./img/smartphone.svg#smartphone"   ></use>
                 </svg>
-                <a class="header-info-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="header-info-link" href="#" >+38 096 111 11 11</a>
             </li>
         </ul>
+        <div class="header-backdrop is-hidden " data-modal>
+            <div class="header-modal">
+                <button class="header-button-close" data-modal-close >&times;</button>
+            </div>
+            </div>
         <p class="header-text" ></p>
-    </div>
-    </div>
+                </div>
+            </div>
     </header>
-
-
     <main class="page menu-page">
     <section class="menu-page-gallary gallary-page" >
     <div class="gallary-page-container container">
@@ -440,5 +443,6 @@
         </div>
             </div>
         </footer>
+        <script src="./js/modal.js"></script>
 </body>
 </html> 
