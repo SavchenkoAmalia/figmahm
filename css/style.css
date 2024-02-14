@@ -189,15 +189,22 @@ body {
 }
 
 .header-times {
-  display: flex;
-  justify-content: end;
+
 }
 
 .header-button-close {
-  font-size: 30px;
-  border-color: #afb1b8;
-  position: absolute;
-  margin-right: 5px;
+
+}
+
+.header-button-svg {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 100%;
+  fill: #000;
+}
+
+.header-button-use {
 }
 
 .header-button-close:hover {
@@ -233,7 +240,6 @@ body {
   letter-spacing: 0.01em;
   color: #757575;
   margin-top: 10px;
-  margin-left: 15px;
 }
 
 .header-contacts {
@@ -250,7 +256,22 @@ body {
   padding: 10px;
 }
 
-.header-input-comments {
+.header-input-one{
+  background: url('../img/person-black-18dp 1.svg#person-black') no-repeat;
+  background-position: 10px;
+}
+
+.header-input-two{
+  background: url('../img/phone-black-18dp 1.svg#phone-black') no-repeat;
+  background-position: 10px;
+}
+
+.header-input-three{
+  background: url('../img/Vector.svg#vector') no-repeat;
+  background-position: 10px;
+}
+
+.header-textarea-comments {
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0.01em;
@@ -259,15 +280,6 @@ body {
   width: 448px;
   height: 120px;
   padding: 10px;
-}
-
-.header-svg {
-  fill: #212121;
-  height: 12px;
-  width: 12px;
-}
-
-.header-use {
 }
 
 .header-terms {

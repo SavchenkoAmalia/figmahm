@@ -68,7 +68,12 @@
             <div class="header-modal">
               <div class="header-times">
                 <button class="header-button-close" data-modal-close>
-                  &times;
+                  <svg class="header-button-svg">
+                    <use
+                      class="header-button-use"
+                      href="./img/close.svg#close"
+                    ></use>
+                  </svg>
                 </button>
               </div>
               <div class="header-center">
@@ -79,16 +84,8 @@
                   <li class="header-item-backdrop">
                     <p class="header-text-backdrop">Ім'я</p>
                     <div class="header-contacts">
-                      <label for="" class="header-label">
-                        <svg class="header-svg">
-                          <use
-                            class="header-use"
-                            href="./img/person-black-18dp 1.svg#person-black"
-                          ></use>
-                        </svg>
-                      </label>
                       <input
-                        class="header-input"
+                        class="header-input header-input-one"
                         id="adress"
                         autofocus
                         type="text"
@@ -100,16 +97,8 @@
                   <li class="header-item-backdrop">
                     <p class="header-text-backdrop">Телефон</p>
                     <div class="header-contacts">
-                      <label for="" class="header-label">
-                        <svg class="header-svg">
-                          <use
-                            class="header-use"
-                            href="./img/phone-black-18dp 1.svg#phone-black"
-                          ></use>
-                        </svg>
-                      </label>
                       <input
-                        class="header-input"
+                        class="header-input header-input-two"
                         id="telefon"
                         autofocus
                         type="text"
@@ -121,19 +110,11 @@
                   <li class="header-item-backdrop">
                     <p class="header-text-backdrop">Пошта</p>
                     <div class="header-contacts">
-                      <label for="" class="header-label"
-                        ><svg class="header-svg">
-                          <use
-                            class="header-use"
-                            href="./img/Vector.svg#vector"
-                          ></use>
-                        </svg>
-                      </label>
                       <input
-                        class="header-input"
+                        class="header-input header-input-three"
                         id="adress"
                         autofocus
-                        type="text"
+                        type="email"
                         name="Ім'я"
                         autocomplete="on"
                       />
@@ -142,7 +123,7 @@
                   <li class="header-item-backdrop">
                     <p class="header-text-backdrop">Коментар</p>
                     <div class="header-contacts">
-                      <input
+                      <!-- <input
                         class="header-input-comments"
                         id="adress"
                         autofocus
@@ -150,7 +131,8 @@
                         name="Ім'я"
                         autocomplete="on"
                         placeholder="Введіть текст"
-                      />
+                      /> -->
+                      <textarea class="header-textarea-comments" name="person-black" id="" cols="30" rows="10" placeholder="Введіть текст"></textarea>
                     </div>
                   </li>
                 </ul>
