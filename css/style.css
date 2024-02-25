@@ -189,22 +189,31 @@ body {
 }
 
 .header-times {
-
+display: flex;
+justify-content: end;
+margin-right: 5px;
+margin-top: 5px;
 }
 
 .header-button-close {
-
+  border: 1px solid #afb1b8;
+  border-radius: 100%;
+  color: #afb1b8;
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
 }
 
 .header-button-svg {
   width: 30px;
   height: 30px;
   padding: 10px;
-  border-radius: 100%;
   fill: #000;
 }
 
 .header-button-use {
+  fill: black;
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
 }
 
 .header-button-close:hover {
@@ -253,7 +262,11 @@ body {
   border-radius: 4px;
   width: 448px;
   height: 40px;
-  padding: 10px;
+  padding: 10px 10px 10px 35px;
+}
+
+.header-input::placeholder{
+  padding-left: 30px;
 }
 
 .header-input-one{
