@@ -91,8 +91,8 @@ body {
   background-color: #2196f3;
   opacity: 0;
   transform: translateX(0);
-  transition: opacity 500ms cubic-bezier(0.83, -0.08, 0.32, 1) 0ms,
-    transform 500ms cubic-bezier(0.83, -0.08, 0.32, 1) 0ms;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-links:hover::after {
@@ -122,7 +122,7 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   gap: 10px;
-  transition: all 0.3s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-info-item:hover {
@@ -150,12 +150,12 @@ body {
 }
 
 .header-info-item:hover .header-info-link {
-  transition: all 0.3s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   color: #2196f3;
 }
 
 .header-info-item:hover .header-info-svg {
-  transition: all 0.3s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   fill: #2196f3;
 }
 
@@ -216,10 +216,10 @@ margin-top: 5px;
   stroke: rgba(0, 0, 0, 0.1);
 }
 
-.header-button-close:hover {
-  color: #2196f3;
+.header-button-close:hover .header-button-use{
+  fill: #2196f3;
   cursor: pointer;
-  transition: all 0.3s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-center {
@@ -339,7 +339,7 @@ margin-top: 5px;
 .header-button:hover {
   background: var(--main-grey);
   cursor: pointer;
-  transition: all 0.3s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-text {
@@ -417,7 +417,7 @@ background: #ECECEC; */
 .gallary-page-button:hover {
   background: var(--main-grey);
   cursor: pointer;
-  transition: all 0.3s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 /*! detaols page */
@@ -528,7 +528,7 @@ background: #ECECEC; */
 .work-page-item:hover .work-page-submenu {
   opacity: 1;
   transform: translateY(0);
-  transition: all 0.2s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .work-page-submenu {
@@ -651,7 +651,7 @@ background: #ECECEC; */
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.3s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .team-page-link:hover {
@@ -665,7 +665,7 @@ background: #ECECEC; */
 }
 
 .team-page-use {
-  transition: all 0.3s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   fill: #afb1b8;
 }
 
@@ -720,11 +720,12 @@ background: #ECECEC; */
 }
 
 .customers-page-item:hover {
-  transition: all 0.3s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   border: 1px solid #2196f3;
 }
 
 .customers-page-item:hover .customers-page-use {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   fill: #2196f3;
 }
 
@@ -733,11 +734,11 @@ background: #ECECEC; */
   height: 60px;
   flex-shrink: 0;
   /* fill: #AFB1B8; 
-transition: all 0.3s ease 0s; */
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
 }
 
 .customers-page-use {
-  transition: all 0.3s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   fill: #afb1b8;
 }
 
@@ -857,7 +858,7 @@ transition: all 0.3s ease 0s; */
   padding: 12px;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.1);
-  transition: all 0.3s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .footer-linkss:hover {
@@ -871,7 +872,7 @@ transition: all 0.3s ease 0s; */
 }
 
 .footer-use {
-  transition: all 0.3s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   fill: #afb1b8;
 }
 
@@ -936,7 +937,7 @@ transition: all 0.3s ease 0s; */
 .footer-button-right:hover {
   background-color: #757575;
   cursor: pointer;
-  transition: all 0.3s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .footer-link-right {
@@ -992,7 +993,7 @@ transition: all 0.3s ease 0s; */
   line-height: 26px; /* 162.5% */
   letter-spacing: 0.48px;
   cursor: pointer;
-  transition: all 0.3s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .buttons-page-button:hover {
@@ -1021,7 +1022,7 @@ transition: all 0.3s ease 0s; */
 .portfolio-page-item {
   position: relative;
   overflow: hidden;
-  transition: all 0.3s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .pictures {
