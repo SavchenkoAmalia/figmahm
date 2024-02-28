@@ -169,8 +169,8 @@ body {
   opacity: 1;
   visibility: visible;
   pointer-events: all;
-  transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1)0ms, 
-  opacity 250ms cubic-bezier(0.4, 0, 0.2, 1)0ms;
+  transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-backdrop.is-hidden {
@@ -193,14 +193,14 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
-.header-modal:hover{
+.header-modal:hover {
 }
 
 .header-times {
-display: flex;
-justify-content: end;
-margin-right: 5px;
-margin-top: 5px;
+  display: flex;
+  justify-content: end;
+  margin-right: 5px;
+  margin-top: 5px;
 }
 
 .header-button-close {
@@ -225,7 +225,7 @@ margin-top: 5px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
-.header-button-close:hover .header-button-use{
+.header-button-close:hover .header-button-use {
   fill: #2196f3;
   cursor: pointer;
 }
@@ -273,22 +273,22 @@ margin-top: 5px;
   padding: 10px 10px 10px 35px;
 }
 
-.header-input::placeholder{
+.header-input::placeholder {
   padding-left: 30px;
 }
 
-.header-input-one{
-  background: url('../img/person-black-18dp 1.svg#person-black') no-repeat;
+.header-input-one {
+  background: url("../img/person-black-18dp 1.svg#person-black") no-repeat;
   background-position: 10px;
 }
 
-.header-input-two{
-  background: url('../img/phone-black-18dp 1.svg#phone-black') no-repeat;
+.header-input-two {
+  background: url("../img/phone-black-18dp 1.svg#phone-black") no-repeat;
   background-position: 10px;
 }
 
-.header-input-three{
-  background: url('../img/Vector.svg#vector') no-repeat;
+.header-input-three {
+  background: url("../img/Vector.svg#vector") no-repeat;
   background-position: 10px;
 }
 
@@ -421,11 +421,32 @@ background: #ECECEC; */
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 10px 32px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+  animation: changeBackroundcolor 2000ms linear 0ms infinite normal;
+}
+
+@keyframes changeBackroundcolor {
+  0% {
+    background-color: #188ce8;
+  }
+
+  50% {
+    background-color: #117fd8;
+  }
+
+  75% {
+    background-color: #0c6fc0;
+  }
+
+  100% {
+    background-color: #188ce8;
+  }
 }
 
 .gallary-page-button:hover {
   background: var(--main-grey);
   cursor: pointer;
+  animation: none;
 }
 
 /*! detaols page */
@@ -1045,7 +1066,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
 }
 
 .portfolio-page-overlay {
-  width:100%;
+  width: 100%;
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
   display: flex;
@@ -1059,7 +1080,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
   transform: translateY(100%);
   transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1) 0s,
     opacity 300ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
-    z-index: 1;
+  z-index: 1;
 }
 
 .portfolio-page-item:hover .portfolio-page-overlay {
