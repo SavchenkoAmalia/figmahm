@@ -76,7 +76,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.28px;
   position: relative;
-  transition: all 0.3s ease 0s;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   padding: 43px 5px;
 }
 
@@ -138,24 +138,24 @@ body {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-info-svg {
   width: 20px;
   height: 20px;
   fill: #757575;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-info-use {
 }
 
 .header-info-item:hover .header-info-link {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   color: #2196f3;
 }
 
 .header-info-item:hover .header-info-svg {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   fill: #2196f3;
 }
 
@@ -190,10 +190,10 @@ body {
   width: 530px;
   height: 585px;
   background-color: #fff;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-modal:hover{
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-times {
@@ -222,12 +222,12 @@ margin-top: 5px;
   fill: black;
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-button-close:hover .header-button-use{
   fill: #2196f3;
   cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-center {
@@ -342,12 +342,12 @@ margin-top: 5px;
   text-align: center;
   color: #fff;
   margin-top: 30px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-button:hover {
   background: var(--main-grey);
   cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-text {
@@ -420,12 +420,12 @@ background: #ECECEC; */
   background: var(--main-blue);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 10px 32px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .gallary-page-button:hover {
   background: var(--main-grey);
   cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 /*! detaols page */
@@ -536,7 +536,6 @@ background: #ECECEC; */
 .work-page-item:hover .work-page-submenu {
   opacity: 1;
   transform: translateY(0);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .work-page-submenu {
@@ -548,6 +547,7 @@ background: #ECECEC; */
   padding: 30px;
   opacity: 0;
   transform: translateY(100%);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .work-page-text {
@@ -725,15 +725,14 @@ background: #ECECEC; */
   display: flex;
   justify-content: center;
   padding: 15px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .customers-page-item:hover {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   border: 1px solid #2196f3;
 }
 
 .customers-page-item:hover .customers-page-use {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   fill: #2196f3;
 }
 
@@ -940,12 +939,12 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
   display: flex;
   justify-content: center;
   padding: 10px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .footer-button-right:hover {
   background-color: #757575;
   cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .footer-link-right {
@@ -1033,9 +1032,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
-.pictures {
-  width: 370px;
-  height: 404px;
+.portfolio-page-pictures {
   flex-shrink: 0;
   border: 1px solid #eee;
   background: var(--main-weiht);
@@ -1048,8 +1045,8 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
 }
 
 .portfolio-page-overlay {
-  width: 370px;
-  height: 294px;
+  width:100%;
+  height: 100%;
   background: rgba(33, 150, 243, 0.9);
   display: flex;
   flex-direction: row;
@@ -1062,6 +1059,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
   transform: translateY(100%);
   transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1) 0s,
     opacity 300ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    z-index: 1;
 }
 
 .portfolio-page-item:hover .portfolio-page-overlay {
@@ -1083,11 +1081,13 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
   color: #fff;
 }
 
-.pictures-text {
+.portfolio-page-pictures-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-left: 25px;
+  margin-bottom: 20px;
+  z-index: -1;
 }
 
 .portfolio-page-item:hover .portfolio-page-title {
