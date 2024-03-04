@@ -76,7 +76,6 @@ body {
   font-weight: 500;
   letter-spacing: 0.28px;
   position: relative;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   padding: 43px 5px;
 }
 
@@ -108,7 +107,7 @@ body {
   margin-bottom: 95px;
   width: 1440px;
   height: 0.5px;
-  background: var(--main-weiht);
+  background-color: var(--main-weiht);
 }
 
 .header-info-list {
@@ -122,7 +121,7 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   gap: 10px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-info-item:hover {
@@ -138,14 +137,14 @@ body {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-info-svg {
   width: 20px;
   height: 20px;
   fill: #757575;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-info-use {
@@ -190,7 +189,7 @@ body {
   width: 530px;
   height: 585px;
   background-color: #fff;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-modal:hover {
@@ -222,7 +221,7 @@ body {
   fill: black;
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-button-close:hover .header-button-use {
@@ -342,11 +341,11 @@ body {
   text-align: center;
   color: #fff;
   margin-top: 30px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .header-button:hover {
-  background: var(--main-grey);
+  background-color: var(--main-grey);
   cursor: pointer;
 }
 
@@ -417,10 +416,10 @@ background: #ECECEC; */
   justify-content: center;
   flex-shrink: 0;
   border-radius: 4px;
-  background: var(--main-blue);
+  background-color: var(--main-blue);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 10px 32px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, animation 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 
   animation: changeBackroundcolor 2000ms linear 0ms infinite normal;
 }
@@ -444,7 +443,7 @@ background: #ECECEC; */
 }
 
 .gallary-page-button:hover {
-  background: var(--main-grey);
+  background-color: var(--main-grey);
   cursor: pointer;
   animation: none;
 }
@@ -568,7 +567,7 @@ background: #ECECEC; */
   padding: 30px;
   opacity: 0;
   transform: translateY(100%);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .work-page-text {
@@ -680,7 +679,7 @@ background: #ECECEC; */
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .team-page-link:hover {
@@ -694,7 +693,7 @@ background: #ECECEC; */
 }
 
 .team-page-use {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   fill: #afb1b8;
 }
 
@@ -746,7 +745,7 @@ background: #ECECEC; */
   display: flex;
   justify-content: center;
   padding: 15px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .customers-page-item:hover {
@@ -766,7 +765,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
 }
 
 .customers-page-use {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   fill: #afb1b8;
 }
 
@@ -886,7 +885,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
   padding: 12px;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .footer-linkss:hover {
@@ -900,7 +899,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
 }
 
 .footer-use {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   fill: #afb1b8;
 }
 
@@ -960,7 +959,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
   display: flex;
   justify-content: center;
   padding: 10px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .footer-button-right:hover {
@@ -1021,7 +1020,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
   line-height: 26px; /* 162.5% */
   letter-spacing: 0.48px;
   cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .buttons-page-button:hover {
@@ -1050,7 +1049,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
 .portfolio-page-item {
   position: relative;
   overflow: hidden;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms ;
 }
 
 .portfolio-page-pictures {
@@ -1096,7 +1095,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
 .portfolio-page-item:hover {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
-  background: #fff;
+  background-color: #fff;
 }
 
 .portfolio-page-texts {
@@ -1114,9 +1113,6 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; */
   margin-left: 25px;
   margin-bottom: 20px;
   z-index: -1;
-}
-
-.portfolio-page-item:hover .portfolio-page-title {
 }
 
 .portfolio-page-title {
